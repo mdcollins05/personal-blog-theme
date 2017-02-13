@@ -54,7 +54,9 @@
     {% endfor %}
   </ol>
   {% endif %}
-  {% include "partial/disqus.html" %}
+  {% if USE_DISQUS %}
+    {% include "partial/disqus.html" %}
+  {% endif %}
 </article>
 {% endblock %}
 
