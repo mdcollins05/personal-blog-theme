@@ -1,5 +1,5 @@
-@orange: #D9411E;
-@light-orange: #FF5A09;
+@accent: #0066cc;
+@accent-highlight: #0080ff;
 @white:  #ffffff;
 @grey: #333333;
 @light-grey:  #eeeeee;
@@ -50,20 +50,20 @@ h6 {
 body {
   margin: 0;
   padding: 0;
-  background-color: @white;
-  color: @dark-grey;
+  background-color: @grey;
+  color: @white;
   font-family: @sans;
   font-size: 1.02em;
   line-height: 1.2em;
 }
 
 a {
-  color: @orange;
+  color: @accent;
   text-decoration: none;
 }
 
 a:hover {
-  color: @light-orange;
+  color: @accent-highlight;
 }
 
 hr {
@@ -80,7 +80,7 @@ img {
 }
 
 aside {
-  background-color: @grey;
+  background-color: @dark-grey;
   color: @white;
   text-align: center;
 
@@ -212,9 +212,7 @@ main {
     code {
       font-size: .8em;
       white-space: nowrap;
-      color: #c25;
       padding: 1px 3px;
-      background-color: #f7f7f9;
       border: 1px solid #e1e1e8;
       border-radius: 3px;
     }
@@ -260,7 +258,7 @@ main {
 
 .tag-cloud {
   a {
-    background-color: @orange;
+    background-color: @accent;
     padding: .2em .6em .2em;
     font-size: .74em;
     line-height: 1;
@@ -272,12 +270,12 @@ main {
   }
 
   a:hover {
-    background-color: @light-orange;
+    background-color: @accent-highlight;
   }
 }
 
 a.btn {
-  background-color: @orange;
+  background-color: @accent;
   padding: .4em .6em;
   font-size: .9em;
   line-height: 1;
@@ -289,7 +287,7 @@ a.btn {
 }
 
 a.btn:hover {
-  background-color: @light-orange;
+  background-color: @accent-highlight;
 }
 
 .center {
